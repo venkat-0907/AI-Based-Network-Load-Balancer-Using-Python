@@ -1,0 +1,6 @@
+server_id,cpu_usage_pct,memory_usage_pct,active_connections,requests_per_sec,network_latency_ms,disk_io_mb_s,bandwidth_mbps,error_rate_pct
+srv-1,55,48,420,260,14,10,120,0.2
+srv-2,88,82,610,340,38,18,180,2.1
+srv-3,40,35,300,210,9,8,95,0.05
+srv-4,95,90,700,380,55,22,200,4.8
+srv-5,62,58,480,275,16,12,135,0.4
