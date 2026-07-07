@@ -1,3 +1,18 @@
+/home/claude/ai-load-balancer/src/train_model.py:150: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=importances[order], y=np.array(FEATURE_COLS)[order], ax=ax, palette="viridis")
+/home/claude/ai-load-balancer/src/train_model.py:174: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=CLASS_TARGET, data=df, order=["Low", "Medium", "High"],
+/home/claude/ai-load-balancer/src/train_model.py:247: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=importances[order], y=np.array(FEATURE_COLS)[order], ax=ax, palette="magma")
 AI LOAD BALANCER - MODEL TRAINING REPORT
 Dataset: data/network_load_dataset.csv  (6,720 rows)
 

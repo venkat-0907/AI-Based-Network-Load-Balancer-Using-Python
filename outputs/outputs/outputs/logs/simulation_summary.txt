@@ -1,0 +1,14 @@
+ROUTING STRATEGY COMPARISON (500 requests each)
+
+             mean  median    std     max     min     p95
+strategy                                                
+AI-Based    143.1  143.53  11.80  175.68  117.96  161.46
+RoundRobin  156.0  157.52  21.82  204.03  106.92  189.97
+
+AI-Based routing reduces AVERAGE response time by 8.3% vs Round Robin
+
+Requests routed per server:
+server_id   srv-1  srv-2  srv-3  srv-4  srv-5
+strategy                                     
+AI-Based      120      7    238      8    127
+RoundRobin    100    100    100    100    100

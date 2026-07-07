@@ -1,0 +1,17 @@
+==========================================================================================
+AI LOAD BALANCER - LIVE ROUTING DECISION
+==========================================================================================
+ rank server_id  cpu_usage_pct  memory_usage_pct predicted_load_status  prediction_confidence  predicted_response_time_ms
+    1     srv-3             40                35                   Low                  0.887                      141.24
+    2     srv-1             55                48                Medium                  0.991                      188.35
+    3     srv-5             62                58                Medium                  0.998                      213.61
+    4     srv-2             88                82                  High                  0.998                      345.16
+    5     srv-4             95                90                  High                  0.995                      419.34
+------------------------------------------------------------------------------------------
+>>> ROUTE NEXT REQUEST TO: srv-3  (predicted load: Low, predicted response time: 141.24 ms)
+============================================================
+SINGLE SERVER PREDICTION
+============================================================
+Predicted load status      : High
+Prediction confidence       : 99.8%
+Predicted response time    : 376.53 ms
